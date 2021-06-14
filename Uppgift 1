@@ -1,0 +1,11 @@
+#Uppgift 1
+#Svar: 233168
+
+num_list = []
+for i in range(1000):
+  if i % 3 == 0: 
+    num_list.append(i)
+  elif i % 5 == 0:
+    num_list.append(i)
+
+print(sum(num_list))
